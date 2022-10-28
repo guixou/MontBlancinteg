@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    margin-top: -10%;
+    margin-right: 15%;
+}
+
+.MB-moto-front{
+    margin-left: 5%;
+    height: 75%;
+}
+
+.MB-moto{
+    height: 75%;
+}
+
+.MB-japan-text{
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    width: 70%;
+    overflow: hidden;
+}
+

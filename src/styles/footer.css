@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'DrunkWhite';
+    src: url('../assets/font/Druk-Wide-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/font/montserrat/Montserrat-Regular.ttf');
+}
+
+
+.footer{
+    display: flex;
+    color: white;
+    margin: -12% 20% 2% 0;
+}
+
+.footerinfo{
+    display: flex ;
+    font-family: 'DrunkWhite';
+    align-items: end;
+    justify-content: space-around;
+}
+
+.footerinfo .left{
+    display: flex;
+}
+
+.footerinfo .number{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.footerinfo .center{
+    width: 32%;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 24px;
+}

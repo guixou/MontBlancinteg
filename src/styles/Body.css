@@ -1,0 +1,27 @@
+.Body{
+    border: 2px solid white;
+    border-radius: 32px;
+    overflow: hidden;
+    margin: 7% 5% 7% 5%;
+    background-color: #060507;
+    ;
+}
+
+.bck-Body{
+    background-image: url("../assets/images/bck.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: left;
+    overflow: hidden;
+    background-size: 55%;
+}
+
+.Body-star{
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    height: 6vh;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 2px;
+}

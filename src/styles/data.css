@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Druk-Wide';
+    src: url(../assets/font/Druk-Wide-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Monstserrat';
+    src: url(../assets/font/montserrat/Montserrat-Regular.ttf);
+}
+
+.MB-data{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+    margin-top: 25vh;
+}
+
+.MB-data ul{
+    padding: 0;
+}
+
+.MB-contente-data{
+    display: flex;
+    margin-bottom: 40px;
+    font-family: 'Monstserrat';
+}
+.data-name{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #3F3E44; /*vérifier la font*/
+    font-size: 18px;
+}
+
+.MB-contente-data div{
+    font-size: 12px;
+    text-align: start;
+}
+
+.MB-contente-data div p{
+    
+    margin: 10px 0px 10px 0px;
+}
+.data-h1{
+    font-size: 32px;
+    margin: 0px;
+    font-family: 'Druk-Wide';
+}

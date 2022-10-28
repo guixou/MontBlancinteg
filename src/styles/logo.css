@@ -1,0 +1,21 @@
+.MB-logo{
+    height: 45px;
+    display: flex;
+    width: 300px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.MB-logo-letter{
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.MB-logo-letter img:not(.first-letter){
+    margin-left: 3px;
+}
+
+.MB-logo-letter img{
+    height: 69%;
+}

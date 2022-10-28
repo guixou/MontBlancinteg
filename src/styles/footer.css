@@ -12,7 +12,7 @@
 .footer{
     display: flex;
     color: white;
-    margin: -12% 20% 2% 0;
+    margin: -1vw 20% 2% 0;
 }
 
 .footerinfo{
@@ -36,4 +36,24 @@
     font-family: 'Montserrat';
     font-size: 12px;
     line-height: 24px;
+}
+
+@media screen and (max-width: 1700px)
+{
+    .footer{
+        margin: -12vw 0 2% 0;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .footerinfo{
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
+
+    .footerinfo p{
+        display: none;
+    }
 }

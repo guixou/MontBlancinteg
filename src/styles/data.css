@@ -13,7 +13,7 @@
     display: flex;
     justify-content: end;
     margin-right: 2%;
-    margin-top: 25vh;
+    margin-top: 10vw;
 }
 
 .MB-data ul{
@@ -46,3 +46,26 @@
     margin: 0px;
     font-family: 'Druk-Wide';
 }
+
+@media screen and (max-width: 1700px)
+{
+    .MB-data ul{
+        display: flex;
+        width: 70vw;
+        justify-content: space-around;
+    }
+
+    .MB-data{
+        margin-top: 7vw;
+        margin-bottom: 8vw ;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .MB-data ul{
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+

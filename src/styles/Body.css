@@ -18,10 +18,12 @@
 
 .Body-star{
     position: absolute;
-    top: 5vh;
-    left: 5vh;
-    height: 6vh;
+    top: 2vw;
+    left: 2vw;
+    height: 4vw;
     border: 1px solid white;
     border-radius: 100%;
     padding: 2px;
 }
+
+

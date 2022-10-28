@@ -2,22 +2,53 @@
     display: flex;
     margin-top: -10%;
     margin-right: 15%;
+    width: 97%;
 }
 
 .MB-moto-front{
     margin-left: 5%;
     height: 75%;
+    width: 18%;
 }
 
 .MB-moto{
     height: 75%;
+    width: 62%;
 }
+
 
 .MB-japan-text{
     position: absolute;
-    top: 90vh;
+    top: 45vw;
     display: flex;
     width: 70%;
     overflow: hidden;
+    height: 10vw;
 }
 
+@media screen and (max-width: 1700px)
+{
+    .content {
+        margin-top:0 ;
+        flex-wrap: wrap;
+    }
+
+    .MB-japan-text{
+        top: 47vw;
+    }
+
+    .MB-moto{
+        width: 70%;
+    }
+
+    .MB-moto-front{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .MB-japan-text{
+        top: 76vw;
+    }
+}

@@ -9,23 +9,27 @@ import A from '../assets/svg/path19A.svg'
 import C from '../assets/svg/path15C.svg'
 import star from '../assets/svg/Vectorlogo.svg'
 
-function Logo() {
-	return (<div className="MB-logo"> 
-            <div className='MB-logo-letter'>         
-                <img className='first-letter' src={M}></img>
-                <img src={O}></img>
-                <img src={N}></img>
-                <img src={T}></img>
-                <img src={B}></img>
-                <img src={L}></img>
-                <img src={A}></img>
-                <img src={N}></img>
-                <img src={C}></img>
-            </div>
-            <img src={star}></img>
 
-        </div>
-    );
+function Logo() {
+    if(window.screen.width > 1000) {
+        return (<div className="MB-logo"> 
+                <div className='MB-logo-letter'>         
+                    <img className='first-letter' src={M}></img>
+                    <img src={O}></img>
+                    <img src={N}></img>
+                    <img src={T}></img>
+                    <img src={B}></img>
+                    <img src={L}></img>
+                    <img src={A}></img>
+                    <img src={N}></img>
+                    <img src={C}></img>
+                </div>
+                <img src={star}></img>
+
+            </div>
+        );
+    }
 }
+
 
 export default Logo

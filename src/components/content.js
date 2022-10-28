@@ -8,10 +8,9 @@ import Japan from '../assets/svg/オートバイ.svg'
 function content() {
     return (
         <div className='content'>
-            <div>
-                <img className='MB-moto' src={Moto}></img>
-                {/* <Circle /> */}
-            </div>
+
+            <img className='MB-moto' src={Moto}></img>
+
             <img className='MB-moto-front' src={Front}></img>
             <div className='MB-japan-text'>
                 <img src={Japan}></img>

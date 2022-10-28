@@ -13,6 +13,7 @@
     justify-content: space-around;
     margin-top: 3%;
     margin-left: 3%;
+    width: 100%;
 }
 
 .MB-nav{
@@ -20,11 +21,16 @@
     display: flex;
     margin-left: 104px;
     font-family: 'Druk-Wide';
-    font-size: 1.5vh;
+    font-size: 0.8vw;
 }
 
 .MB-nav p{
     margin-right: 72px;
+}
+
+.MB-nav p:hover{
+    border-bottom: 1px white solid;
+    animation: 0.5s linear;
 }
 
 .MB-bck-banner{
@@ -33,4 +39,32 @@
     background-image: url("../assets/images/bck top.png");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+
+@media screen and (max-width: 1700px)
+{
+    .MB-bck-banner{
+        display: none;
+    }
+
+    .MB-nav{
+        font-size: 1vw;
+    }
+
+}
+
+@media screen and (max-width: 1000px)
+{
+    .MB-nav{
+        flex-direction: column;
+        margin-left: 0;
+        font-size: 2.5vw;
+    }
+
+    .MB-nav p{
+        margin-right: 0;
+    }
+
+
 }

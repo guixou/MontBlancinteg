@@ -1,9 +1,9 @@
 .MB-logo{
-    height: 45px;
+    height: 18%;
     display: flex;
-    width: 300px;
+    width: 30%;
     align-items: start;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .MB-logo-letter{
@@ -18,4 +18,13 @@
 
 .MB-logo-letter img{
     height: 69%;
+}
+
+
+@media screen and (max-width: 1700px)
+{
+    .MB-logo{
+        height: 100%;
+    }
+
 }
